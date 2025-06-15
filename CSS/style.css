@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-style: solid;
+    color: #3a86ff;
+}
+
+
+.logo {
+    font-size: 35px;
+    font-family: bradley hand, cursive;
+    text-decoration: none;
+    align-items: start;
+    color: white;
+    margin: 0px 50px;
+}
+
+.menu ul li {
+
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.menu ul li a {
+    color: white;
+    font-family: bradley hand, cursive;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 40px;
+}
+
+.menu ul li a:hover {
+    color: #3a86ff;
+}
+
+.home {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+
+}
+
+.home img {
+    width: 25vw;
+    border-radius: 50%;
+    cursor: pointer;
+    border: #3a86ff;
+    border-style: solid;
+    border-width: 0.4rem;
+    margin-right: 12rem;
+}
+
+.info {
+    margin-left: 200px;
+    font-family: bradley hand, cursive;
+    justify-items: flex-start;
+}
+
+
+.info div h3 {
+    font-size: 30px;
+}
+
+.info h3 {
+    font-size: 40px;
+
+
+}
+
+.info h1 {
+    font-size: 120px;
+    margin-top: -10px;
+    color: #3a86ff;
+    cursor: pointer;
+}
+
+.info h1:hover {
+    color: #62cff4: #2c67f2;
+}
+
+.imptext {
+    color: #3a86ff;
+}
+
+.btn {
+    border-color: #3a86ff;
+    border: solid;
+    border-radius: 30px;
+    margin: 25px 50px;
+    margin-left: 0%;
+    padding: 8px;
+
+
+}
+
+.btn a {
+    color: black;
+    font-family: bradley hand, cursive;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.btn:hover {
+    background-color: #3a86ff;
+}
