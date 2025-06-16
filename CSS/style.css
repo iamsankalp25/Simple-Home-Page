@@ -41,7 +41,7 @@
     font-family: bradley hand, cursive;
     text-decoration: none;
     font-size: 20px;
-    margin: 10px 40px;
+    margin: 10px 30px;
 }
 
 .menu ul li a:hover {
@@ -113,9 +113,52 @@
     color: black;
     font-family: bradley hand, cursive;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .btn:hover {
     background-color: #3a86ff;
+}
+
+.About {
+    font-family: bradley hand, cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.About_sankalp {
+    width: 400px;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: #3a86ff;
+    cursor: pointer;
+    margin-right: 25px;
+
+}
+
+.about-description {
+    margin: 30px 50px;
+    margin-right: 100px;
+
+
+}
+
+.About h1 {
+    font-size: 70px;
+}
+
+.About h3 {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.about-social {
+    margin-top: -300px;
+    margin-left: -1250px;
+    display: flex;
+    justify-content: space-between;
+    transform: scale(0.05);
+
 }
